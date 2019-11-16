@@ -1,0 +1,122 @@
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+            }
+            
+            .logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+                top: 30%;
+            }
+            
+            body {
+                background-image: radial-gradient( circle, rgb(69, 145, 69), rgb(21, 58, 21));
+            }
+            
+            h1 {
+                color: rgb(228, 129, 0);
+                text-align: center;
+                font-size: 50px;
+            }
+            
+            th,
+            td {
+                background-image: linear-gradient(to bottom right, red, maroon);
+                font-family: "Times New Roman", Times, serif;
+                font-size: 20px;
+                padding: 5px;
+                border-collapse: collapse;
+            }
+            
+            th {
+                background-color: red;
+                color: orangered;
+                height: 20px;
+                width: 40%
+            }
+            
+            #t01 {
+                position: absolute;
+                top: 35%;
+                left: 30%;
+            }
+            
+            #t02 {
+                position: absolute;
+                top: 35%;
+                right: 30%;
+            }
+            
+            td {
+                text-align: center;
+            }
+            
+            .button1 {
+                background-color: rgb(27, 189, 33);
+                border-radius: 40%;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                position: absolute;
+                top: 80%;
+                left: 40%;
+            }
+            
+            .button1:hover {
+                background-color: rgb(5, 255, 13);
+                color: white;
+            }
+            
+            .button2 {
+                background-color: rgb(31, 11, 207);
+                border-radius: 40%;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                position: absolute;
+                top: 80%;
+                left: 50%;
+            }
+            
+            .button2:hover {
+                background-color: rgb(60, 57, 235);
+                color: white;
+            }
+            
+            .button3 {
+                background-color: rgb(223, 60, 11);
+                border-radius: 40%;
+                color: white;
+                padding: 10px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            
+            .button3:hover {
+                background-color: rgb(230, 127, 10);
+                color: white;
+            }
+            
+            h2 {
+                color: navy;
+                text-align: center;
+                font-size: 50px;
+            }
